@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.thirai" name="Thirai" version="1.0.7" provider-name="radrajith">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>thirai scrapes the web for Tamil TV Shows, Serials and Movies.</summary>
+    <description>Links to watch Tamil TV Shows and Movies.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
